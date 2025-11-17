@@ -28,3 +28,30 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+
+class Diary:
+    def __init__(self, subject):
+        self.subject = subject
+
+    def average(subject):
+        avg = 0
+        for grade in self.subject.grades:
+            score = score + grade
+        x = len(self.subject.grades)
+        avg = avg / x
+        return avg
+        
+    
+
+class Subject:
+    def __init__(self, name, grades):
+        self.name = name
+        self.grades = grades
+
+
+if __name__ == "main":
+    grades = [1,2,3,5]
+    subject_1 = Subject("History", grades)
+    diary = Diary(subject_1)
+    print(diary.average())
